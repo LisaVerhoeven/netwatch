@@ -21,10 +21,10 @@ const initialState = {
 	countryid: '0',
 	info: {
 		title: '',
-		type: 'movie',
-		image: 'https://occ-0-2851-38.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABVGjKZK68g5kGEDhJx2DvfreEiVWWK7xca-h4bgZj5UWmW4leWYfN3z9w-AFirdfqcejE3yfS9xhBO-iuILxn4dLLKOb6h-CTrV6lQ2v4Zt27_FGGzAsX9c-KLI.jpg?r=4ad',
-		year: '2020',
-		plot: 'A space-time continuum glitch allows Vera to save a boys life 25 years earlier, but results in the loss of her daughter, whom she fights to get back.'
+		type: '',
+		image: '',
+		year: '',
+		plot: ''
 	}
 }
 
