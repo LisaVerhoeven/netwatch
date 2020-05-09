@@ -41,7 +41,7 @@ const CustomMenu = React.forwardRef(
         <ul className="list-unstyled scroller tc">
           {React.Children.toArray(children).filter(
             (child) =>
-              !value || child.props.children.props.children.toLowerCase().startsWith(value),
+              !value || child.props.children.props.children.toLowerCase().startsWith(value.toLowerCase()),
           ) } 
          
         </ul>
